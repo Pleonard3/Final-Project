@@ -1,0 +1,67 @@
+@charset "UTF-8";
+/* CSS Document */
+
+nav ul li a {
+    /* [disabled]background-color: #FF0000; */
+}
+.item {
+    color: #00FF3B;
+}
+nav ul li a:hover {
+    color: #FF0000;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* [disabled]background-color: #00B954; */
+}
+.right-col {
+    float: right;
+    text-align: center;
+    padding-right: 50px;
+    width: 600px;
+}
+.left-col {
+    float: left;
+    text-align: center;
+    padding-right: 20px;
+    padding-left: 50px;
+}
+html {
+}
+h3 {
+    text-align: center;
+    font-size: 30px;
+}
+.about {
+    color: #FFFFFF;
+    font-size: x-large;
+}
+.today-deal {
+    text-align: center;
+}
+h1 {
+    color: #FFFFFF;
+    font-size: 40px;
+    line-height: 45px;
+    text-align: center;
+    background-color: #00B2B9;
+}
+h2 {
+    color: #FFFFFF;
+    font-size: 35px;
+    line-height: 37px;
+    text-align: center;
+    background-color: #00B2B9;
+}
+a:hover {
+    color: #FF0000;
+}
+.page-container {
+    width: 1280px;
+    background-image: url(../Images/backg.jpeg);
+    background-repeat: repeat;
+    /* [disabled]background-size: 40px 40px; */
+}
